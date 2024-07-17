@@ -2,10 +2,10 @@ I am the President of Fasten Health, Inc. a Personal Health Record (PHR) applica
 
 I’m submitting an Information Blocking Complaint against:
 
-**Name:** Cerner  
-**Website:** [https://www.oracle.com/health/](https://www.oracle.com/health/)
-**Role:** Certified Health IT  
-**CHPL Link:** [https://chpl.healthit.gov/#/listing/11015](https://chpl.healthit.gov/#/listing/11015)
+- **Name:** Cerner  
+- **Website:** [https://www.oracle.com/health/](https://www.oracle.com/health/)
+- **Role:** Certified Health IT  
+- **CHPL Link:** [https://chpl.healthit.gov/#/listing/11015](https://chpl.healthit.gov/#/listing/11015)
 
 We determined that some Health Systems using Cerner's Millennium EHR are broken in a similar way: requesting PDF Binary FHIR resources will consistently result in 404 or 500 error messages (while XML Binary documents return correctly)
 

@@ -2,10 +2,10 @@ I am the President of Fasten Health, Inc. a Personal Health Record (PHR) applica
 
 I’m submitting an Information Blocking Complaint against:
 
-**Name:** Cyfluent  
-**Website:** https://www.cyfluentphr.com/
-**Role:** Certified Health IT  
-**CHPL Link:**  https://chpl.healthit.gov/#/listing/10072
+- **Name:** Cyfluent  
+- **Website:** https://www.cyfluentphr.com/
+- **Role:** Certified Health IT  
+- **CHPL Link:**  https://chpl.healthit.gov/#/listing/10072
 
 I’ve attempted to register with their development environment, and have experienced a number of issues making it impossible.
 

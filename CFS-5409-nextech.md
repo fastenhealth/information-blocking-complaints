@@ -2,10 +2,10 @@ I am the President of Fasten Health, Inc. a Personal Health Record (PHR) applica
 
 I’m submitting an Information Blocking Complaint against:
 
-**Name:** Nextech  
-**Website:** https://www.nextech.com/developers-portal
-**Role:** Certified Health IT  
-**CHPL Link:**  https://chpl.healthit.gov/#/listing/11028
+- **Name:** Nextech  
+- **Website:** https://www.nextech.com/developers-portal
+- **Role:** Certified Health IT  
+- **CHPL Link:**  https://chpl.healthit.gov/#/listing/11028
 
 I’ve attempted to register with their development environment, and have experienced a number of issues making it impossible.
 

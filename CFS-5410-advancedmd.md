@@ -2,10 +2,10 @@ I am the President of Fasten Health, Inc. a Personal Health Record (PHR) applica
 
 I’m submitting an Information Blocking Complaint against:
 
-**Name:** AdvancedMD  
-**Website:** https://www.advancedmd.com/
-**Role:** Certified Health IT  
-**CHPL Link:**  https://chpl.healthit.gov/#/listing/11406
+- **Name:** AdvancedMD  
+- **Website:** https://www.advancedmd.com/
+- **Role:** Certified Health IT  
+- **CHPL Link:**  https://chpl.healthit.gov/#/listing/11406
 
 I’ve been able to successfully to register an application for their development environment, however their APIs are not functional for a number of reasons:
 
