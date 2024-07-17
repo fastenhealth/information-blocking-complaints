@@ -1,5 +1,7 @@
 # information-blocking-complaints
-Public copies of ONC Information Blocking complaints filed by Fasten (&amp; others?)
+Public copies of ONC Information Blocking complaints filed by Fasten Health.
+
+Take a look at our blog post: [How to Ignore Information Blocking Legislation Like A Pro](https://blog.fastenhealth.com/how-to-ignore-information-blocking-like-a-pro) for more information
 
 ## How can I file a Privacy Rule Complaint
 
