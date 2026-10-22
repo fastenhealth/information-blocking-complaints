@@ -4,7 +4,7 @@ These instructions need to be done in order.
 
 ## Set 1: Retrieve Communication Data
 1. [GMAIL Plugin] Iterate though all email communication with <DOMAIN_NAME> and extract the following information:
-2. Generate a json file named <domain>-timeline.json containing a timeline of communication with the recipient domain, and the contacts we emailed.
+2. Generate a json file in queue/timeline/<domain>-timeline.json containing a timeline of communication with the recipient domain, and the contacts we emailed.
 eg.
 ```json
 {
@@ -24,10 +24,10 @@ contacts should be a list of email addresses sent to that domain across all comm
 "July 20, 2026 - follow up, NIH response that “Any expansion of government software is through the official contract award process.”"
 "July 21, 2026 - fasten added clarification that we’re requesting access to their EHR on behalf of Patients, not trying to sell them software. No response"
 
-4. Generate a PDF of the email threads for a specific domain, named <domain>-communication.pdf. Provide this in addition to the JSON file
+4. Generate a PDF of the email threads for a specific domain, in queue/communication-pdfs/<domain>-communication.pdf. Provide this in addition to the JSON file
 
 ## Set 2: Populate Information Blocking Complaint Template
-1. parse <domain>-timeline.json
+1. parse queue/timeline/<domain>-timeline.json
 2. Populate the following template. Using the following variables and data from <domain>-timeline.json
 - ORGANIZATION_NAME: 
 - URL:
@@ -56,6 +56,19 @@ Timeline:
 I’ve attached a PDF of our email thread
 ```
 
-3. This file should be named  "{"domain" from JSON file entry}.complaint.md"
-4. Once complete all generated files should be zipped up and made available to me 
-5. For any entry that was not found in meditech-organizations.csv, add the "domain" to a list in missing.txt and provide that file in addition to the zip file
+3. This file should be named  "queue/complaints/{"domain" from JSON file entry}.complaint.md"
+
+## Set 3: Submit Complaint to ONC
+
+1. [browseros-neo] help me submit an Information Blocking complaint using this form: https://inquiry.healthit.gov/support/plugins/servlet/desk/portal/6/create/67
+2. I will already be logged in.
+3. Use the following information when filling out the form:
+
+First Name: Jason
+Last Name: Kulatunga
+Email Address: jason@fastenhealth.com
+
+"Description" should be be populated using the content in the complaint.md file: queue/complaints/<domain>.complaint.md
+"Attachment" should upload the following file: queue/communication-pdfs/<domain>-communication.pdf
+
+4. On complete, always move the complaint to the main directory with the following name: "{submission ID}-{domain}.md"
